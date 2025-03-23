@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs-info/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.txt
+*.whl
+*.egg
+.env
+.venv
+env/
+venv/
+ENV/
+include/
+
+# PyInstaller
+#  Usually these files are written to the dist folder, but if we don't have
+#  a dist folder, let's be safe and ignore them.
+# *.exe
+# *.dll
+# *.so
+# *.dylib
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env*
+env/
+venv/
+ENV/
+
+# Pycharm related
+.idea/
+*.iml
+*.iws
+
+# OS generated files #
+.DS_Store
+Thumbs.db
