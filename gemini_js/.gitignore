@@ -1,0 +1,81 @@
+# Node.js
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# Build output
+dist/
+build/
+out/
+public/build/ # If you have a build in public folder
+coverage/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp # Vim swap files
+*.swo # Vim swap files
+*~ # Backup files
+
+# OS generated files
+Thumbs.db
+.DS_Store # macOS
+
+# Dependency specific
+/bower_components/
+/jspm_packages/
+
+# IDE specific
+.idea/ # IntelliJ IDEA
+*.suo # Visual Studio solution user options
+*.sln # Visual Studio solution files
+*.vcxproj # Visual Studio project files
+*.vcxproj.filters # Visual Studio project files
+*.user # Visual Studio user files
+
+# Optional: if you use a specific bundler
+# Example for Webpack:
+# /public/bundles/
+
+# Optional: if you use a specific testing framework
+# Example for Jest:
+# /__mocks__/
+# /reports/
+
+# Optional: if you use a specific linter
+# Example for ESLint cache:
+# /.eslintcache
+
+# Optional: If you use TypeScript
+*.tsbuildinfo
+
+# Optional: If you use serverless
+.serverless/
+
+# Optional: If you use docker
+docker-compose.yml
+Dockerfile.dev
+
+# Optional: If you use github actions
+.github/workflows/*.yml
+
+# Optional: if you use pnpm
+pnpm-lock.yaml
+.pnpm-store/
